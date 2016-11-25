@@ -1,0 +1,38 @@
+.jumbotron{
+  position: relative;
+  height: 700px;
+  width: auto;
+}
+
+#before,
+#after{
+  overflow: hidden;
+  height: auto;
+  position: absolute;
+}
+
+#before img,
+#after img{
+  width: auto;
+  height: 100%;
+  position: absolute;
+}
+
+#after{
+  width: 100%;
+  float: right;
+  overflow: hidden;
+}
+
+#before{
+  z-index: 1;
+}
+
+#pointer{
+  position: absolute;
+  left:65%;
+  width: 1%;
+  height: 650px;
+  background-color: red;
+  z-index: 2;
+}
